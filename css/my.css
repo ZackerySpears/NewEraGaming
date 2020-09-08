@@ -1,12 +1,18 @@
-#myPic {
-    height: 300px;
-    width: 300px;
-    border-radius: 200px;
-    padding: 0;
+body {
+    background-color: grey;
 }
+
+.masthead {
+    padding-bottom: 500px;
+}
+
 
 #overlay {
     text-shadow: black 0px 0px 10px;
+}
+
+.section-subheading {
+    color: blanchedalmond;
 }
 
 .rounded-circle  {
@@ -14,74 +20,43 @@
     width: 300px;
  }
 
- #rightRoundTip{
-    border-bottom-right-radius: 20px;
+ .streamers {
+    text-align: center;
  }
 
- #rightRound {
-    border-bottom-right-radius: 20px;
- }
-
- #leftRounded {
-    border-bottom-left-radius: 20px;
- } 
-
- @media only screen and (max-width: 600px) {
-    #myPic {
-    height: 150px;
-    width: 150px;
-    border-radius: 200px;
-    padding: 0;
-    }
-    
-    .rounded-circle {
-    height: 70px;
-    width: 150px;
-    }
- }
-
-#linksPadding {
-    padding: 10px;
+#centerRow1 {
+    display: inline-block;
+    margin-left: 5px;
 }
-@media only screen and (min-width: 576px) {
- .rounded-circle {
-    height: 0px;
-    width: 0px;
-}
-}
-.rounded-circle {
-    height: 70px;
-    width: 150px;
+.paddingfortwitch {
+    padding-left: 10px;
 }
 
-@media only screen and (min-width: 768px) {
-    
-    .rounded-circle {
-    height: 90px;
-     width: 150px;
-    }
+#team {
+    background-color: grey;
 }
 
-@media only screen and (min-width: 786px) {
-    
-    .rounded-circle {
-    height: 90px;
-    width: 150px;
-    }
-    
-}
-@media only screen and (min-width: 992px){
-    .rounded-circle {
-    height: 160px;
-    width: 160px;
-    }
+#contactme {
+    text-shadow: black 10px 10px 15px;
+    text-decoration: underline;
 }
 
+.footer {
+    background-color: white;
+}
 
+.email, .message {
+    color: black;
+}
 
+.bio {
+    background-color: black;
+}
 
-
-
+            
+#carouselExampleControls {
+    transition: none;
+}
 
 
 
