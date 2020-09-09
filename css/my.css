@@ -41,9 +41,9 @@ body {
     text-decoration: underline;
 }
 
-.footer {
+/* .footer {
     background-color: white;
-}
+} */
 
 .email, .message {
     color: black;
@@ -56,6 +56,10 @@ body {
             
 #carouselExampleControls {
     transition: none;
+}
+
+#success {
+    padding-bottom: 182px;
 }
 
 
