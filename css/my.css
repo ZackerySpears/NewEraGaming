@@ -39,6 +39,7 @@ body {
 #contactme {
     text-shadow: black 10px 10px 15px;
     text-decoration: underline;
+    color: white;
 }
 
 /* .footer {
@@ -59,8 +60,11 @@ body {
 }
 
 #success {
-    padding-bottom: 182px;
+    padding-bottom: 130px;
 }
+ #sendMessageButton {
+     margin-bottom: 20px;
+ }
 
 
 
